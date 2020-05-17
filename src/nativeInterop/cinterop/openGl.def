@@ -1,0 +1,4 @@
+package = platform.OpenGL
+headers = GL/glut.h
+headerFilter = GL/* KHR/khrplatform.h
+linkerOpts.linux = -L/usr/lib64 -L/usr/lib/x86_64-linux-gnu -lGL -lGLU -lglut
